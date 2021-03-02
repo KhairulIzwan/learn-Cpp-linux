@@ -20,4 +20,3 @@ else {
     // block of code if condition is false
 }
 ```
-

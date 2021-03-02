@@ -6,7 +6,7 @@ int main() {
 	cout << "This is C++ Programming" << endl;
 	
 	// or
-	std::cout << "This is C++ Programming" << endl;
+	std::cout << "This is C++ Programming" << std::endl;
 	
 	return 0;
 }

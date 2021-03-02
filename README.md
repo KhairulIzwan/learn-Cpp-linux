@@ -79,6 +79,47 @@ int main() {
 }
 ```
 
+### C++ Input
+```c
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Enter an integer: ";
+    cin >> num;   // Taking input
+    cout << "The number is: " << num;
+    return 0;
+}
+```
+
+## C++ Type Conversion
+### Implicit Type Conversion
+
+```c
+// Working of implicit type-conversion
+
+#include <iostream>
+using namespace std;
+
+int main() {
+   // assigning an int value to num_int
+   int num_int = 9;
+
+   // declaring a double type variable
+   double num_double;
+ 
+   // implicit conversion
+   // assigning int value to a double variable
+   num_double = num_int;
+
+   cout << "num_int = " << num_int << endl;
+   cout << "num_double = " << num_double << endl;
+
+   return 0;
+}
+```
+
 ## References
 1. [C++](https://www.programiz.com/cpp-programming/)
 2. [How to compile and run the C++ program?](https://www.tutorialspoint.com/How-to-compile-and-run-the-Cplusplus-program)

@@ -51,3 +51,38 @@ cout << mark[0];
 // print ith element of the array
 cout >> mark[i-1];
 ```
+
+## C++ Multidimensional Arrays
+
+### Initialization of two-dimensional array
+
+```c
+int  test[2][3] = { {2, 4, 5}, {9, 0, 19}};
+```
+
+###  Initialization of three-dimensional array
+
+```c
+int test[2][3][4] = { 
+                     { {3, 4, 2, 3}, {0, -3, 9, 11}, {23, 12, 23, 2} },
+                     { {13, 4, 56, 3}, {5, 9, 3, 5}, {5, 1, 4, 9} }
+                 };
+```
+
+## Passing Array to a Function in C++ Programming
+
+### Syntax for Passing Arrays as Function Parameters
+
+```c
+returnType functionName(dataType arrayName[arraySize]) {
+    // code
+}
+```
+
+## C++ Strings
+
+### How to define a C-string?
+
+```c
+char str[] = "C++";
+```
